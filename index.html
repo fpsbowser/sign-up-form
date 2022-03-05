@@ -5,7 +5,47 @@
     <link rel="stylesheet" href="style.css">
     <title>Sign-up Form</title>
 </head>
-<body>
-    <h1>Test</h1>
+<body class="flex-container">
+    <div class="background-container">
+        <img class= "background-image" src="images/lex-sirikiat-VkUP6wWqSvw-unsplash.jpg">
+        <!-- image credit: Lex Sirikiat - @pundalex - https://unsplash.com/photos/VkUP6wWqSvw  -->
+        <!-- <div class="credit">Lex Sirikiat - @pundalex - https://unsplash.com/photos/VkUP6wWqSvw</div> -->
+        <div class="logo-text">
+            <div class="store-name">coffee || java</div>
+            <img class= "png-logo" src="images/Coffee-shop-logo-on-transparent-background-PNG.png">
+            <!-- logo credit: Ra20Ga - https://similarpng.com/coffee-shop-logo-on-transparent-background-png/#getdownload -->
+        </div>
+    </div>
+    <div class="form-container">
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br>Sign up <strong>now</strong> to get started.</p>
+        <p>You know you want to.</p>
+        <form action="#" method="POST">
+            <fieldset>
+                <div class="first-last-container">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" name="user-name" id="first-name">
+            
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" name="user-last-name" id="last-name">
+                </div>
+                <div class="email-phone-container">
+                    <label for="mail">E-mail:</label>
+                    <input type="email" name="user-email" id="mail">
+           
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" name="user-phone" id="phone">
+                </div>
+                <div class="password-container">
+                    <label for="password">Password:</label>
+                    <input type="password" name="user-password" id="password" required>
+            
+                    <label for="password-confirmation">Confirm Password:</label>
+                    <input type="password" name="user-password-confirmation" id="password-confirmation" required>
+                </div>
+                <button type="submit">Create Account</button>
+            </fieldset>
+        </form>
+        <p>Already have an account? <a href="http://www.google.com">Log in</a></p>
+    </div>
 </body>
 </html>
